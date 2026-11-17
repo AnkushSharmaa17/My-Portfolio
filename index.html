@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ankush Sharma — Software Engineer</title>
+  <meta name="description" content="Ankush Sharma, Software Engineer building real-time, AI-enabled and AWS serverless products with Next.js, Node.js and Socket.io.">
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <span class="mono">Ankush Sharma</span>
+  <span class="mono" id="lbl" aria-hidden="true">Introduction</span>
+  <nav class="mono">
+    <a href="#experience" data-go>Experience</a>
+    <a href="#work" data-go>Work</a>
+    <a href="#contact" data-go>Contact</a>
+  </nav>
+  <i id="pg"></i>
+</header>
+
+<canvas id="gl" aria-hidden="true"></canvas>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section id="hero" data-t="Introduction">
+    <span class="tag mono"><i></i>Open to freelance and full-time roles</span>
+    <h1 aria-label="Ankush Sharma">
+      <span class="l"><span>Ankush</span></span>
+      <span class="l"><span>Sharma</span></span>
+    </h1>
+    <p class="lead">Software Engineer building real-time, AI-enabled and serverless web products.</p>
+    <p class="sub">Next.js, React, Node.js, Express, MongoDB, TypeScript and Socket.io, deployed on AWS with Docker. Currently building with LangChain and Mistral.</p>
+    <div class="row">
+      <a class="btn" href="#work" data-go>See my work</a>
+      <a class="btn" href="mailto:ankush2004sharmaa@gmail.com">Email me</a>
+    </div>
+  </section>
+
+  <!-- ============ IMPACT ============ -->
+  <section class="alt" data-t="Impact" style="padding-block:10vh">
+    <div class="stats">
+      <div class="stat">
+        <b data-n="35" data-s="%">0</b>
+        <span>faster API responses after I refactored an NGO platform’s backend at Inphora</span>
+      </div>
+      <div class="stat">
+        <b data-n="2" data-s="">0</b>
+        <span>software engineering internships</span>
+      </div>
+      <div class="stat">
+        <b data-n="4" data-s="">0</b>
+        <span>full-stack and AI projects built</span>
+      </div>
+      <div class="stat">
+        <b data-n="9" data-s="">0</b>
+        <span>public repositories on GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" data-t="Experience">
+    <h2><span class="l"><span>Experience</span></span></h2>
+    <div class="tl">
+      <i id="tlf"></i>
+
+      <div class="it">
+        <p class="mono">Present · Remote</p>
+        <h3>Software Engineering Intern, <a href="https://shivapphub.in" target="_blank" rel="noopener">Shiv App Hub</a></h3>
+        <ul>
+          <li>Managing APIs, integrating the frontend and improving UI/UX for a live product.</li>
+          <li>Optimized APIs and the frontend-to-API integration to improve performance.</li>
+          <li>Coordinating API requirements and contributing to application architecture.</li>
+        </ul>
+      </div>
+
+      <div class="it">
+        <p class="mono">2 months · Mohali, on-site</p>
+        <h3>Software Engineering Intern, Inphora Pvt. Ltd.</h3>
+        <ul>
+          <li>Built REST APIs and backend features for an NGO platform.</li>
+          <li>Found the existing APIs slow because the code was unstructured, then refactored the backend and made API responses 35% faster.</li>
+          <li>Built frontend pages and integrated APIs in the production app.</li>
+        </ul>
+      </div>
+
+      <div class="it">
+        <p class="mono">Education</p>
+        <h3>MCA, Guru Nanak Dev University, Amritsar</h3>
+        <ul>
+          <li>CGPA 7.1</li>
+          <li>Before that: BCA, Government Degree College Dharamshala, CGPA 6.45.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="work" class="alt" data-t="Projects">
+    <h2><span class="l"><span>Projects</span></span></h2>
+    <div class="stack">
+
+      <!-- 1. Collaborative AI Workshop -->
+      <article class="card" style="--i:0">
+        <div>
+          <p class="mono">In development</p>
+          <h3>Collaborative AI Workshop</h3>
+          <div class="chips">
+            <span>Next.js</span><span>TypeScript</span><span>Socket.io</span><span>MongoDB</span>
+            <span>Redis</span><span>LangChain</span><span>Mistral</span><span>Docker</span><span>AWS</span>
+          </div>
+        </div>
+        <div>
+          <h4>Problem</h4>
+          <p>Teams needed a real-time collaborative workspace with built-in AI help for brainstorming and problem-solving.</p>
+          <h4>Solution</h4>
+          <p>A real-time collaboration platform currently in active development: Socket.io for live messaging, LangChain and Mistral for AI-assisted features, on a scalable Node and Express backend with MongoDB, Redis and AWS deployment.</p>
+          <h4>One request, end to end</h4>
+          <div class="pipe" id="pipe1" style="--p:0" data-caps="A message is typed in the Next.js client.|Socket.io pushes it live to the server.|Express handles the event in real time.|Redis caches the active workshop session.|MongoDB stores the workshop history.">
+            <i class="fill" id="fill1"></i>
+            <span class="nd">Browser</span>
+            <span class="nd">Next.js</span>
+            <span class="nd">Socket.io</span>
+            <span class="nd">Express</span>
+            <span class="nd">MongoDB</span>
+            <i class="pk" id="pk1"></i>
+          </div>
+          <p class="mono cap" id="cap1" aria-live="polite">Scroll to trace a request →</p>
+        </div>
+      </article>
+
+      <!-- 2. FinSight — AI Finance Copilot -->
+      <article class="card" style="--i:1">
+        <div>
+          <p class="mono">2026 · Live</p>
+          <h3>FinSight — AI Finance Copilot</h3>
+          <div class="chips">
+            <span>Next.js 14</span><span>TypeScript</span><span>Tailwind CSS</span><span>Firebase</span>
+            <span>Recharts</span><span>Framer Motion</span><span>Vercel</span><span>Render</span>
+          </div>
+          <div class="row" style="margin-top:1.5rem">
+            <a class="btn" href="https://finsight-ten-lake.vercel.app/" target="_blank" rel="noopener">Live site</a>
+            <a class="btn" href="https://github.com/AnkushSharmaa17/Finsight" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+        <div>
+          <h4>Problem</h4>
+          <p>Personal finance in India is fragmented — cash flow, net worth, debt, goals and tax live in separate spreadsheets, so people have no single, reliable view of their financial health.</p>
+          <h4>Solution</h4>
+          <p>An AI finance copilot that connects cash flow, net worth, debt, emergency cover, goals and tax to one model, answering questions in natural language using the user's real data. Deployed on Vercel (frontend) and Render (API), now in Google indexing phase.</p>
+          <h4>One request, end to end</h4>
+          <div class="pipe" id="pipe2" style="--p:0" data-caps="A query opens in the Next.js app.|Vercel serves the frontend.|The request hits the Render API.|Firebase verifies the user session.|MongoDB Atlas returns the financial data.">
+            <i class="fill" id="fill2"></i>
+            <span class="nd">Browser</span>
+            <span class="nd">Vercel</span>
+            <span class="nd">Render API</span>
+            <span class="nd">Firebase</span>
+            <span class="nd">Atlas</span>
+            <i class="pk" id="pk2"></i>
+          </div>
+          <p class="mono cap" id="cap2" aria-live="polite">Scroll to trace a request →</p>
+        </div>
+      </article>
+
+      <!-- 3. Beauty E-Commerce Platform (AWS serverless) -->
+      <article class="card" style="--i:2">
+        <div>
+          <p class="mono">2026</p>
+          <h3>Beauty E-Commerce Platform</h3>
+          <div class="chips">
+            <span>Next.js</span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+            <span>Docker</span><span>AWS ECR/ECS</span><span>Lambda</span><span>API Gateway</span>
+          </div>
+          <div class="row" style="margin-top:1.5rem">
+            <a class="btn" href="https://main.d3d325x27vdiwp.amplifyapp.com/" target="_blank" rel="noopener">Live site</a>
+            <a class="btn" href="https://github.com/AnkushSharmaa17/Face-product" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+        <div>
+          <h4>Problem</h4>
+          <p>Beauty product sellers were held back by a slow, cluttered platform. Sluggish loads and a confusing interface made it hard for admins to manage inventory and for customers to shop.</p>
+          <h4>Solution</h4>
+          <p>Rebuilt it for speed and simplicity: containerized with Docker, deployed on AWS ECS and serverless, with a clean UI for admins and customers.</p>
+          <h4>One request, end to end</h4>
+          <div class="pipe" id="pipe" style="--p:0" data-caps="A customer opens the Next.js storefront.|AWS Amplify serves the app.|API Gateway receives the API request.|Express, wrapped with serverless-http, runs on Lambda.|MongoDB Atlas stores data, S3 stores product images.">
+            <i class="fill" id="fill"></i>
+            <span class="nd">Browser</span>
+            <span class="nd">Amplify</span>
+            <span class="nd">API Gateway</span>
+            <span class="nd">Lambda</span>
+            <span class="nd">Atlas + S3</span>
+            <i class="pk" id="pk"></i>
+          </div>
+          <p class="mono cap" id="cap" aria-live="polite">Scroll to trace a request →</p>
+        </div>
+      </article>
+
+      <!-- 4. AI Code Review Platform -->
+      <article class="card" style="--i:3">
+        <div>
+          <p class="mono">2025</p>
+          <h3>AI Code Review Platform</h3>
+          <div class="chips">
+            <span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+            <span>Monaco Editor</span><span>Gemini AI</span>
+          </div>
+        </div>
+        <div>
+          <h4>Problem</h4>
+          <p>Developers reviewed code line by line by hand, a slow process prone to missed issues and inconsistent feedback.</p>
+          <h4>Solution</h4>
+          <p>A simple, focused AI review tool: React frontend, Express REST API, MongoDB storage, Monaco Editor for the code input and Gemini AI to analyze code quality and surface issues instantly.</p>
+          <h4>One request, end to end</h4>
+          <div class="pipe" id="pipe4" style="--p:0" data-caps="A developer opens the React editor.|Monaco Editor captures the code.|Express API sends it to Gemini.|Gemini AI reviews the code quality.|MongoDB stores the review results.">
+            <i class="fill" id="fill4"></i>
+            <span class="nd">Browser</span>
+            <span class="nd">React</span>
+            <span class="nd">Express API</span>
+            <span class="nd">Gemini AI</span>
+            <span class="nd">MongoDB</span>
+            <i class="pk" id="pk4"></i>
+          </div>
+          <p class="mono cap" id="cap4" aria-live="polite">Scroll to trace a request →</p>
+        </div>
+      </article>
+
+    </div>
+    <p class="sub">Also on GitHub: <a href="https://school-erp-nu-brown.vercel.app" target="_blank" rel="noopener">SchoolErp</a> (Next.js, live on Vercel), <a href="https://github.com/AnkushSharmaa17/CodeEditor" target="_blank" rel="noopener">CodeEditor</a> (real-time collaborative code editor) and <a href="https://finsight-ten-lake.vercel.app/" target="_blank" rel="noopener">FinSight</a> (AI finance copilot, live on Vercel).</p>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section data-t="Skills">
+    <h2><span class="l"><span>Skills</span></span></h2>
+    <div class="skills" id="sk"></div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="alt" data-t="Contact">
+    <p class="mono">Open to freelance and full-time roles</p>
+    <a class="cta" href="mailto:ankush2004sharmaa@gmail.com">Let’s build<br>something.</a>
+    <div class="contact">
+      <a href="mailto:ankush2004sharmaa@gmail.com">ankush2004sharmaa@gmail.com</a>
+      <a href="tel:+919821672750">+91-98216722750</a>
+      <span class="mono">Amritsar, India</span>
+    </div>
+    <div class="row">
+      <a class="btn" href="https://github.com/AnkushSharmaa17" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://linkedin.com/in/ankushsharmaa17" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <footer class="mono">
+      <span class="live"><i></i>Available now</span>
+      <span id="clk"></span>
+    </footer>
+  </section>
+
+</main>
+
+<script src="js/vendor/three.min.js"></script>
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
